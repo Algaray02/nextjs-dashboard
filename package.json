@@ -1,10 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "prepare": "cd node_modules/bcrypt && node-pre-gyp install --fallback-to-build",
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt"
+    ]
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",

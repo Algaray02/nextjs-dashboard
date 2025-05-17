@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 3,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Noctis Sereno",
+  "editor.minimap.autohide": false,
+  "liveServer.settings.port": 5501,
+  "editor.minimap.enabled": false
+}

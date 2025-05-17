@@ -5,7 +5,7 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "installCommand": "pnpm install && cd node_modules/bcrypt && node-pre-gyp install --fallback-to-build"
+        "installCommand": "pnpm install && cd node_modules/bcrypt && node-pre-gyp install --fallback-to-build "
       }
     }
   ]

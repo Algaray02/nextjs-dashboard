@@ -1,5 +1,10 @@
 {
   "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt"
+    ]
+  },
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
@@ -28,6 +33,7 @@
     "zod": "^3.24.4"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/node": "^20.17.47",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3"

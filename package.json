@@ -1,6 +1,5 @@
 {
   "private": true,
-  "name": "nextjs-13.4.0",
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
